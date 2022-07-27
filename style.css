@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    
+    outline-color: white;
+
+
+}
+
+.inline-element {
+display:inline;
+width: 100%;
+
+}
+
+P {
+    color: black;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    
+
+}
+
+body {
+    background-color: crimson;
+    text-align: center;
+    width: 90%;
+
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+#about {
+    background: white;
+    width: 1000px;
+    
+    
+}
