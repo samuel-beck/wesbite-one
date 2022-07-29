@@ -1,11 +1,22 @@
+* {
+   
+    box-sizing: border-box;
+   
+
+}
+
+
 h1 {
     text-align: center;
     font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-    
+    font-weight: 300;    
     outline-color: white;
-
-
+    outline-style: solid;
+    outline-width: 3px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3%;
+    
 }
 
 .inline-element {
@@ -16,27 +27,152 @@ width: 100%;
 
 P {
     color: black;
-    text-align: center;
     font-family: 'PT Sans', sans-serif;
     
-
 }
 
 body {
-    background-color: crimson;
+    background-image: linear-gradient(to bottom, crimson, white);
     text-align: center;
-    width: 90%;
+    width: 95%;
+    margin: auto;
 
 }
-h2{
+
+h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
-    text-align: center;
+
 }
 
 #about {
     background: white;
-    width: 1000px;
-    
+    border: 10px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 25px;
     
 }
+
+#education-list {
+
+    background: white;
+    border: 10px;
+    border-color: black;
+    border-style: solid;
+    padding-bottom: 20px;
+    border-radius: 25px;
+
+    
+
+}
+
+#hobbies {
+    background: white;
+    border: 10px;
+    border-color: black;
+    border-style: solid;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 25px;
+
+}
+
+
+#title-line {
+    position:relative;
+    bottom: 75px;
+
+}
+
+#education_container {
+
+    list-style-type: none;
+    background: white;
+    border: 10px;
+    border-color: black;
+    border-style: solid;
+    justify-content: center;
+
+
+   
+    
+}
+
+#education_container h2 {
+    text-align: center;
+    
+
+
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: rgba(220, 20, 60, .8);
+    border-radius: 40px;
+    border: 10px;
+    border-color: black;
+    border-style: solid;
+
+    
+
+}
+
+li,a,button {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    cursor: pointer;
+    height: 90px;
+    width: 300px;
+
+}
+
+.nav_links {
+    list-style: none;
+
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+
+
+}
+
+.nav_links li a:hover {
+    color: white;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(227, 226, 226);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+
+
+}
+
+button:hover {
+    background-color: rgba(220, 20, 60, .8)
+
+    
+}
+
